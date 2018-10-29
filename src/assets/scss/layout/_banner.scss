@@ -1,14 +1,8 @@
-///
-/// Forty by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
-
 /* Banner */
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/banner.jpg")');
+		@include vendor('background-image', 'url("http://res.cloudinary.com/decjevtzc/image/upload/v1540742323/personal%20portfolio/me-hero.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -26,14 +20,14 @@
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
-			@include vendor('transition-delay', '0.75s');
+			@include vendor('transition-delay', '0.1s');
 			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
+			background-color: _palette(bg-alt);
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.18;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -60,7 +54,7 @@
 			}
 
 			header {
-				width: auto;
+				width: 65%;
 
 				> :first-child {
 					width: auto;
@@ -86,7 +80,7 @@
 				}
 
 				p {
-					font-size: 0.7em;
+					font-size: 1.18em;
 					font-weight: _font(weight-bold);
 					letter-spacing: _font(letter-spacing-alt);
 					text-transform: uppercase;
@@ -95,7 +89,7 @@
 		}
 
 		&.major {
-			height: 75vh;
+			height: 95vh;
 			min-height: 30em;
 			max-height: 50em;
 
