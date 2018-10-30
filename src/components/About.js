@@ -4,12 +4,12 @@ const About = (props) => (
     <section id="about">
         <div className="inner">
             <header className="major">
-                <h2>Who Am I?</h2>
+                <h2>About Me</h2>
             </header>
             <div className="content">
-                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                <p>Originally form South Texas but now residing in Austin, TX  </p>
                 <br />
-                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                <p>For over 3 years, I have been building websites using the WordPress CMS and various other tools for a wide array of clients from small newspaper service and medium sized business to large local government. Throughout this time, I have served as the lead developer (and designer) for all my projects.</p>
             </div>
         </div>
     </section>
