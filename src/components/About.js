@@ -52,6 +52,8 @@ const About = (props) => (
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue">ExpressJS</span>
                                 <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">MongoDB</span>
+                                <br />
                                 <span className="answer">=&gt; </span><span className="text-blue">NodeJS / Npm</span>
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue">Gulp</span>
