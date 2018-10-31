@@ -17,7 +17,8 @@ const Banner = (props) => (
                 <li><a href="https://www.linkedin.com/in/victor-ollervidez/" target="_blank" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="actions">
-                    <li><a href="#" className="button next scrolly">Get In Touch</a></li>
+                    <li><a href="vollervi@outlook.com" className="button next scrolly">Get In Touch</a></li>
+                    <li><a href="#" className="button special icon fa-download">Download My Resume</a></li>
             </ul>
         </div>
     </section>
