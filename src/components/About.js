@@ -39,7 +39,7 @@ const About = (props) => (
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue">MySQL</span>
                                 <br />
-                                &gt; <span className="text-yellow">Victor</span>.familiarWith
+                                &gt; <span className="text-yellow">Victor</span>.isFamiliarWith
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue">GatsbyJS</span>
                                 <br />
@@ -54,6 +54,14 @@ const About = (props) => (
                                 <span className="answer">=&gt; </span><span className="text-blue">Gulp</span>
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue">Vagrant</span>
+                                <br />
+                                &gt; <span className="text-yellow">Victor</span>.latestWorkExperience
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue"><span className="text-yellow">const</span> Warm Audio LLC = {'{ '} <br />
+                                <span className="answer"></span><span className="text-blue">role: {' "Web Developer & IT Manager" '},</span> <br /> <span className="answer"></span><span className="text-blue">start date: {' "May 2017" '},</span> <br /> <span className="answer"></span><span className="text-blue">end date: {' "n/a" '},</span>
+
+                                <br />
+                                {'}'}</span>
                             </div>
                         </div>
                     

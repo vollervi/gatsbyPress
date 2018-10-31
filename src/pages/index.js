@@ -6,8 +6,8 @@ import Banner from '../components/Banner'
 import About from '../components/About'
 
 import pic01 from '../assets/images/wa-website.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
+import pic02 from '../assets/images/pharr-tx-site.jpeg'
+import pic03 from '../assets/images/park-improv.jpeg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
@@ -32,9 +32,8 @@ class HomeIndex extends React.Component {
                 <div id="main">
                     <div className="inner">
                         <header className="major">
-                            <h2>Some Recent Work</h2>
+                            <h1>Some Recent Work</h1>
                         </header>
-                    {/* </div> */}
                         <section id="one" className="tiles">
                             <article style={{backgroundImage: `url(${pic01})`}}>
                                 <header className="major">
