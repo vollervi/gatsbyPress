@@ -40,7 +40,7 @@ class HomeIndex extends React.Component {
                                     <h3>Warm Audio LLc.</h3>
                                     <p>Web Development & Web Design</p>
                                 </header>
-                                <Link to="/landing" className="link primary"></Link>
+                                <Link to="/warm-audio" className="link primary"></Link>
                             </article>
                             <article style={{backgroundImage: `url(${pic02})`}}>
                                 <header className="major">

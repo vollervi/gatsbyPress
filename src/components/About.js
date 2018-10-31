@@ -10,7 +10,7 @@ const About = (props) => (
                     </header>
                     <div className="content">
                         <p>Hey! I’m just a regular dude that likes building good looking and functional websites that are easy to use. I also enjoy the occasional hike around one of the local Austin, Tx green belts or a cold pint at a local brewery.</p>
-                        <p>For over 3 years I have been working as a web developer in professional fast paced environments helping companies both small and large get their brand and identity across the internet to their users. My professional career has been mainly focused around building websites using the WordPress CMS to allow clients to easily take over the site at any point after development was completed.</p>
+                        <p>For over 3 years I have been working as a web developer in professional fast paced environments helping companies both large and small get their brand and identity across the internet to their users. My professional career has been mainly focused around building websites using the WordPress CMS to allow clients to easily take over the site at any point after development was completed.</p>
                     </div>
                 </div>
                 <div className="col-6">
@@ -59,9 +59,17 @@ const About = (props) => (
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue"><span className="text-yellow">const</span> Warm Audio LLC = {'{ '} <br />
                                 <span className="answer"></span><span className="text-blue">role: {' "Web Developer & IT Manager" '},</span> <br /> <span className="answer"></span><span className="text-blue">start date: {' "May 2017" '},</span> <br /> <span className="answer"></span><span className="text-blue">end date: {' "n/a" '},</span>
-
                                 <br />
                                 {'}'}</span>
+                                <br />
+                                &gt; <span className="text-yellow">Victor</span>.previousWorkExperience
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue"><span className="text-yellow">const</span> City of Pharr Texas = {'{ '} <br />
+                                <span className="answer"></span><span className="text-blue">role: {' "Web Developer" '},</span> <br /> <span className="answer"></span><span className="text-blue">start date: {' "August 2015" '},</span> <br /> <span className="answer"></span><span className="text-blue">end date: {' "May 2017" '},</span>
+                                <br />
+                                {'}'}</span>
+                                <br/ >
+                                &gt; _
                             </div>
                         </div>
                     
