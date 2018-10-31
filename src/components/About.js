@@ -23,7 +23,7 @@ const About = (props) => (
                                 <div className="green circle"></div>
                             </div>
                             <div id="console">
-                                &gt; <span className="text-yellow">Victor</span>.skillSet
+                                &gt; <span className="text-yellow">Victor</span>.skills
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue">HTML / HTML5</span>
                                 <br />
@@ -32,6 +32,28 @@ const About = (props) => (
                                 <span className="answer">=&gt; </span><span className="text-blue">SCSS / SASS</span>
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue">JavaScript</span>
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">PHP</span>
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">WordPress</span>
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">MySQL</span>
+                                <br />
+                                &gt; <span className="text-yellow">Victor</span>.familiarWith
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">GatsbyJS</span>
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">ReactJS</span>
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">Redux</span>
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">ExpressJS</span>
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">NodeJS / Npm</span>
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">Gulp</span>
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">Vagrant</span>
                             </div>
                         </div>
                     
