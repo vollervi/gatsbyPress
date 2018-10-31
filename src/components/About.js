@@ -63,14 +63,14 @@ const About = (props) => (
                                 &gt; <span className="text-yellow">Victor</span>.latestWorkExperience
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue"><span className="text-yellow">const</span> Warm Audio LLC = {'{ '} <br />
-                                <span className="answer"></span><span className="text-blue">role: {' "Web Developer & IT Manager" '},</span> <br /> <span className="answer"></span><span className="text-blue">start date: {' "May 2017" '},</span> <br /> <span className="answer"></span><span className="text-blue">end date: {' "n/a" '},</span>
+                                <span className="answer"></span><span className="text-blue">role: {' "Web Developer & IT Manager" '},</span> <br /> <span className="answer"></span><span className="text-blue">start date: {' "May 2017" '},</span> <br /> <span className="answer"></span><span className="text-blue">end date: {' "n/a" '}</span>
                                 <br />
                                 {'}'}</span>
                                 <br />
                                 &gt; <span className="text-yellow">Victor</span>.previousWorkExperience
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue"><span className="text-yellow">const</span> City of Pharr Texas = {'{ '} <br />
-                                <span className="answer"></span><span className="text-blue">role: {' "Web Developer" '},</span> <br /> <span className="answer"></span><span className="text-blue">start date: {' "August 2015" '},</span> <br /> <span className="answer"></span><span className="text-blue">end date: {' "May 2017" '},</span>
+                                <span className="answer"></span><span className="text-blue">role: {' "Web Developer" '},</span> <br /> <span className="answer"></span><span className="text-blue">start date: {' "August 2015" '},</span> <br /> <span className="answer"></span><span className="text-blue">end date: {' "May 2017" '}</span>
                                 <br />
                                 {'}'}</span>
                                 <br/ >
