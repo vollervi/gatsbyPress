@@ -149,6 +149,9 @@
 				min-height: 0;
 				max-height: none;
 			}
+			.resume-btn {
+				margin-top: 10px;
+			}
 		}
 
 		@include breakpoint(xsmall) {
