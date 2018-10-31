@@ -9,7 +9,7 @@ const About = (props) => (
                         <h2>Who is this guy?</h2>
                     </header>
                     <div className="content">
-                        <p>Hey! I’m just a regular dude that likes building good looking, functional websites that are easy to use. I also enjoy the occasional hike around one of the local Austin, Tx green belts or a cold pint at a local brewery.</p>
+                        <p>Hey! I’m just a regular dude that likes building aesthetic, functional websites that are easy to use. I also enjoy the occasional hike around one of the local Austin green belts or a cold pint at a local brewery.</p>
                         <p>For over 3 years I have been working as a <b>Web Developer</b> in professional fast paced environments helping companies both large and small get their brand and identity across the internet to their users. My professional career has been primarily focused around building, designing, and customizing websites using the <i>WordPress CMS</i> to allow clients to easily take over the site at any point after development was completed.</p>
                     </div>
                 </div>
@@ -24,6 +24,8 @@ const About = (props) => (
                             </div>
                             <div id="console">
                                 &gt; <span className="text-yellow">Victor</span>.skills
+                                <br />
+                                <span className="answer">=&gt; </span><span className="text-blue">Git</span>
                                 <br />
                                 <span className="answer">=&gt; </span><span className="text-blue">HTML / HTML5</span>
                                 <br />

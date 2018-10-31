@@ -9,8 +9,8 @@ import pic01 from '../assets/images/wa-website.jpg'
 import pic02 from '../assets/images/pharr-tx-site.jpeg'
 import pic03 from '../assets/images/park-improv.jpeg'
 import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import pic05 from '../assets/images/rio-grande-guardian.jpeg'
+import pic06 from '../assets/images/f-word.jpeg'
 
 class HomeIndex extends React.Component {
     render() {
