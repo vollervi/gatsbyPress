@@ -18,7 +18,7 @@ const Banner = (props) => (
             </ul>
             <ul className="actions">
                     <li><a href="vollervi@outlook.com" className="button next scrolly">Get In Touch</a></li>
-                    <li><a href="#" className="button special icon fa-download">Download My Resume</a></li>
+                    <li><a href="https://drive.google.com/file/d/1_WXuNEvb2XuhIzCneLOme71RFeB7etZj/view?usp=sharing" target="_blank" className="button special icon fa-download">Download My Resume</a></li>
             </ul>
         </div>
     </section>

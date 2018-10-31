@@ -12,7 +12,7 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/elements">Elements</Link></li> */}
             </ul>
             <ul className="actions vertical">
-                <li><a href="#" className="button special fit">Download My Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1_WXuNEvb2XuhIzCneLOme71RFeB7etZj/view?usp=sharing" target="_blank" className="button special fit">Download My Resume</a></li>
                 <li><a href="#" className="button fit">Talk To Me</a></li>
             </ul>
         </div>
