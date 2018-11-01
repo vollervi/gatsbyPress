@@ -35,4 +35,10 @@
 				}
 			}
 		}
+		a.icon:hover {
+			&:before {
+				background-color: _palette(accent4);
+				color: _palette(bg);
+			}
+		}
 	}

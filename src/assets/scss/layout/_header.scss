@@ -11,10 +11,10 @@
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
 		cursor: default;
 		font-weight: _font(weight-bold);
-		height: 3.25em;
+		height: 3.55em;
 		left: 0;
 		letter-spacing: _font(letter-spacing-alt);
-		line-height: 3.25em;
+		line-height: 3.55em;
 		margin: 0;
 		position: fixed;
 		text-transform: uppercase;
@@ -124,8 +124,8 @@
 		}
 
 		&.alt {
-			@include vendor('transition', 'opacity #{_duration(banner)} ease');
-			@include vendor('transition-delay', '0.75s');
+			@include vendor('transition', 'opacity #{_duration(navi)} ease');
+			@include vendor('transition-delay', '0.15s');
 			@include vendor('animation', 'none');
 			background-color: transparent;
 			box-shadow: none;

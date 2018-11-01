@@ -58,14 +58,14 @@
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   line-height: 1.7em;
-}
-#console .answer {
-width: 25%;
-margin-left: 25px;
-}
-.text-blue {
-    color: _palette(fg);
-}
-.text-yellow {
-    color: #1ec4a5;
+  .answer {
+      width: 25%;
+      margin-left: 25px;
+  }
+  .text-blue {
+      color: _palette(fg);
+  }
+  .text-yellow {
+      color: #1ec4a5;
+  }
 }

@@ -11,7 +11,7 @@ const About = (props) => (
                     <div className="content">
                         <p>Hey! I’m just a regular dude that likes building aesthetic, functional websites that are easy to use. I also enjoy the occasional hike around one of the local Austin green belts or a cold pint at a local brewery.</p>
                         <p>For over 3 years I have been working as a <b>Web Developer</b> in professional fast paced environments helping companies both large and small get their brand and identity across the internet to their users. My professional career has been primarily focused around building, designing, and customizing websites using the <i>WordPress CMS</i> to allow clients to easily take over the site at any point after development was completed.</p>
-                        <p>Being a lifelong learner and having  a passion for technology, I’m constantly trying to improve my skills or learn about the next cool “framework”. If I’m not at work, out on a hike, or at the gym I can usually be found following the <b>freecodecamp.org</b> curriculum, reading some articles on <b>Smashing Magazine</b>, or scrolling through the <i>r/webdev</i> and <i>r/webdesign</i> subreddits.</p>
+                        <p>Being a lifelong learner and having  a passion for technology, I’m constantly trying to improve my skills or learn about the next cool “framework”. If I’m not at work, out on a hike, or at the gym I can usually be found following the <b>freecodecamp.org</b> curriculum, reading some articles on <b>Smashing Magazine</b>, or scrolling through the <b><i>r/webdev</i></b> and <b><i>r/webdesign</i></b> subreddits.</p>
                     </div>
                 </div>
                 <div className="col-6">

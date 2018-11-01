@@ -2,7 +2,7 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("https://res.cloudinary.com/decjevtzc/image/upload/v1540742323/personal%20portfolio/me-hero.jpg")');
+		@include vendor('background-image', 'url("https://res.cloudinary.com/dtlied51v/image/upload/q_auto:best/v1541017762/me-hero.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -150,7 +150,7 @@
 				max-height: none;
 			}
 			.resume-btn {
-				margin-top: 10px;
+				margin-top: 0.938em;
 			}
 		}
 
