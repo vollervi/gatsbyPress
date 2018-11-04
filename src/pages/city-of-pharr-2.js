@@ -1,26 +1,49 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import BannerLanding from '../components/BannerLanding'
 
-import pic11 from '../assets/images/pic11.jpg'
+import pic3 from '../assets/images/pharr-tx-site.png'
 
-const Generic = (props) => (
+const WarmAudio = (props) => (
     <Layout>
         <Helmet>
             <title>Victor Ollervidez | Front-End Developer</title>
-            <meta name="description" content="City of Pharr Texas website build case study" />
+            <meta name="description" content="Warm Audio LLC website build case study" />
         </Helmet>
 
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
-                        <h1>Comming Soon!</h1>
-                    </header>
-                    {/* <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p> */}
+                    {/* <header className="major"> */}
+                        <h1>City of Pharr Texas<br />Park Improvement Project Campaign</h1>
+                    {/* </header> */}
+                    <hr className="major" />
+                    <div className="grid-wrapper">
+                        <div className="col-4">
+                        <span className="image fit"><img src={pic3} alt="" /></span>
+                        <a href="http://pharr-tx.gov/" target="_blank" className="button special fit">Visit The Site</a>
+                        </div>
+                        <div className="col-8">
+                        <article>
+                            <h4>Project Summary</h4>
+                                {/* <p>When I began my employment with the City of Pharr Texas IT department, my first task was to rebuild the cities main website. This project had a pretty short deadline and as per the IT director I had to keep the WordPress CMS in use.</p>
+                                <p>To meet these deadlines I decided to go with purchasing a premade premium theme.The previous website had a large amount of pages and I needed a way to quickly rebuild them using pre-built elements.</p><p>This project also involved the integration of some 3rd party services which required some customization. To achieve this a custom child-theme was used were all custom JavaScript, CSS, PHP, and custom templates where added.</p> */}
+                                <div className="box">
+                                <h4 id="content">Project Specs:</h4>
+                                <ul className="alt">
+                                    <li><b>Role:</b> Web Development / Web Design</li>
+                                    <li><b>Tech Used:</b> HTML, CSS / SCSS, JavaScript, JQuery, Gulp</li>
+                                    <li><b>Industry:</b> Local Government</li>
+                                </ul>
+                                {/* <a href="http://pharr-tx.gov/" target="_blank" className="button special fit">Visit The City of Pharr</a> */}
+                                </div>
+                            
+                            </article>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
             </section>
         </div>
@@ -28,4 +51,4 @@ const Generic = (props) => (
     </Layout>
 )
 
-export default Generic
+export default WarmAudio

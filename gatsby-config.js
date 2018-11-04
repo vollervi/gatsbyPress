@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Personal Portfolio",
+    author: "Victor Ollervidez",
+    description: "Built using GatsbyJS"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,6 +17,15 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Roboto'],
+          varients: ['300', '400', '500', '700']
+        }
+      }
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'

@@ -34,6 +34,7 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h1>Some Recent Work</h1>
                         </header>
+                        {/* </div> */}
                         <section id="one" className="tiles">
                             <article style={{backgroundImage: `url(${pic01})`}}>
                                 <header className="major">

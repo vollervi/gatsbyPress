@@ -22,7 +22,7 @@
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.1s');
 			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg-alt);
+			background-color: _palette(bg);
 			content: '';
 			display: block;
 			height: 100%;
@@ -36,6 +36,8 @@
 
 		h1 {
 			font-size: 3.25em;
+			font-family: _font(family);
+			font-weight: _font(weight-bold);
 		}
 
 		> .inner {
