@@ -83,6 +83,6 @@ const About = (props) => (
             </div>
         </div>
     </section>
-)
+);
 
 export default About
