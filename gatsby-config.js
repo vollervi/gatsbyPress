@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Victor Ollervidez | Front-End Developer',
+        short_name: 'portfolio',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
@@ -27,7 +27,29 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: "gatsby-source-wordpress",
+      options: {
+        baseUrl: "headlesspress.xyz",
+        protocol: "https",
+        hostingWPCOM: false,
+        useACF: true,
+        acfOptionPageIds: ['home-page-content'],
+        // Set how many simultaneous requests are sent at once.
+        concurrentRequests: 10,
+        includedRoutes: [
+          "**/categories",
+          "**/posts",
+          "**/pages",
+          "**/media",
+          "**/tags",
+          "**/taxonomies",
+          "**/users",
+          "**/work",
+        ],
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
-}
+};
